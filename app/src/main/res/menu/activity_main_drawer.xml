@@ -28,5 +28,25 @@
             android:id="@+id/compasFragment"
             android:icon="@android:drawable/ic_menu_compass"
             android:title="Compas" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/recorderFragment"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="Recorder" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Profile" />
+        <item
+            android:id="@+id/fileFragment"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="File Work" />
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Map" />
     </group>
 </menu>
