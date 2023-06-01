@@ -59,7 +59,7 @@
         tools:layout="@layout/fragment_file" />
     <fragment
         android:id="@+id/mapFragment"
-        android:name="ru.mirea.allik.mireaproject.mapFragment"
+        android:name="ru.mirea.allik.mireaproject.ui.map.mapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" />
 </navigation>

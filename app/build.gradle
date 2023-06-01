@@ -33,6 +33,9 @@ android {
 }
 
 dependencies {
+    implementation 'org.osmdroid:osmdroid-android:6.1.16'
+    // библиотека для хранения данных SharedPreferences
+    implementation "androidx.preference:preference:1.2.0"
     implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
     implementation	'androidx.work:work-runtime:2.8.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
