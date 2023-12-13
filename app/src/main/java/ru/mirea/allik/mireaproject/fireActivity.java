@@ -58,9 +58,7 @@ public class fireActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String email = String.valueOf(binding.emailEdit.getText());
-                System.out.println(email);
                 String password = String.valueOf(binding.passwordEdit.getText());
-                System.out.println(password);
                 sha256(password);
                 signIn(email, password, view);
             }
