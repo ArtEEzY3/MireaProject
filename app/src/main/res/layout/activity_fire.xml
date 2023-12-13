@@ -22,7 +22,7 @@
             android:id="@+id/createAccBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="212dp"
             android:layout_marginEnd="52dp"
             android:text="Create Account"
             app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
             android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="212dp"
             android:text="Sign In"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,23 +42,23 @@
             android:id="@+id/verifyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="56dp"
-            android:layout_marginBottom="69dp"
-            android:text="Verify Email"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="68dp"
+            android:text="Verify code"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/signOutBtn"
+            android:id="@+id/phoneBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="56dp"
-            android:layout_marginBottom="69dp"
-            android:text="Sign Out"
+            android:layout_marginEnd="144dp"
+            android:layout_marginBottom="68dp"
+            android:text="Send code"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <EditText
             android:id="@+id/emailEdit"
@@ -69,6 +69,32 @@
             android:ems="10"
             android:hint="email"
             android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/codeEdit"
+            android:layout_width="180dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:hint="code"
+            android:inputType="textPersonName"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/phoneEdit"
+            android:layout_width="180dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:hint="+71234567890"
+            android:inputType="textPersonName"
+            android:visibility="invisible"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
